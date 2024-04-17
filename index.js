@@ -25,7 +25,7 @@ class UserProfileManager {
     }
 
     idGenerate() {
-      return Math.random().toString(36).substr(2, 9);
+      return Math.random().toString(25).substr(2, 25);
     }
   }
   
